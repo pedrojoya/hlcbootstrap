@@ -1,0 +1,4 @@
+/* Todas las imagenes ocupan todo el ancho posible */
+img {
+  width: 100%;
+}

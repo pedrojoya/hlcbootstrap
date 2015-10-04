@@ -1,0 +1,217 @@
+/* Colores:
+ * - Fondo cabecera: #f2f0f2
+ * - Fondo botón: #5989DF
+ * https://www.youtube.com/watch?v=5XO_N9V15T0&list=PLRjuMxvCRGQ4I9hbIT-2r3R-gC6hCZvma&index=10
+ * https://www.gmail.com/intl/es/mail/help/about.html
+ */
+
+
+/* Botón primario */
+
+.btn-primary {
+  background-color: #4173c9;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5e8ee4), color-stop(1, #4173c9));
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #396bbc;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5587d7), color-stop(1, #396bbc));
+}
+
+
+/* Enlace de la barra de navegación que no es un botón */
+
+a.no-boton {
+  padding: 6px;
+}
+
+
+/* Barra de logo */
+
+div.well {
+  margin-bottom: 0;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 0;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(250, 250, 250)), to(rgb(245, 245, 245)));
+}
+
+
+/* Imagen de logo */
+
+img.inline {
+  display: inline;
+  margin-right: 5px;
+}
+
+
+/* Barra de navegación */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: transparent;
+  box-shadow: none;
+  background-image: none;
+  border-radius: 0;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* Menús de la barra de navegación */
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+  color: #333;
+}
+
+.navbar-default .navbar-nav > li > a.menu_item {
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* Para que el último menú no muestre el borde inferior */
+
+.navbar-default .navbar-nav > li:last-child > a.menu_item {
+  border-bottom: none;
+}
+
+
+/* En enlace muestra underline cuando se coloca el ratón encima,
+ * sólo si no es un elemento fijo, como el item inicial de Gmail.
+ */
+
+.navbar-default .navbar-nav > li > a:not(.menu_item_fijo):hover {
+  text-decoration: underline;
+}
+
+
+/* Caja de contenido */
+
+#contenido {
+  box-shadow: 0px -40px 40px 0px #aaa, 0px -40px 40px 0px #aaa;
+}
+
+
+/* Carrusel */
+
+#carrusel {
+  padding-top: 121px;
+}
+
+.carousel-caption {
+  width: 100%;
+  text-align: left;
+  left: 0%;
+  right: 0%;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 52%;
+  padding-bottom: 2%;
+}
+
+.carousel-caption h3 {
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+
+
+/* Titular */
+
+#titular {
+  padding: 20px 0;
+}
+
+
+/* Tarjetas */
+
+#tarjetas {
+  padding-bottom: 40px;
+}
+
+.media {
+  margin-bottom: 20px;
+}
+
+.media-body {
+  padding-right: 10%;
+}
+
+.media-heading {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+
+/* Colores */
+
+#barra-colores {
+  padding-right: 8%;
+}
+
+.color {
+  height: 3px;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#amarillo {
+  background-color: yellow;
+}
+
+#verde {
+  background-color: green;
+}
+
+
+/* Menú inferior */
+
+#menu-inferior {
+  padding: 45px 15px;
+  background-color: #F9F9F9;
+}
+
+
+/* Pie */
+
+footer {
+  font-size: 12px;
+  padding: 14px 0;
+  background-color: #F5F5F5;
+}
+
+footer a {
+  padding: 0px 5px;
+}
+
+#barra-enlaces {
+  padding: 2px 0;
+}
+
+@media (max-width: 768px) {
+  #barra-enlaces {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* pull-right on all except xs devices */
+
+@media (min-width: 768px) {
+  .pull-right-sm {
+    float: right;
+  }
+}

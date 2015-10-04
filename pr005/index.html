@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Se debe utilizar el juego de caracteres utf-8 -->
+  <meta charset="utf-8">
+  <!-- IE debe usar el último motor de renderizado -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap - PR005 - Rejilla - Desplazamiento</title>
+  <!-- Se vincula el archivo CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <!-- Tema opcional -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+        con HTML 5 y CSS 3 en IE8+ -->
+  <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Contenido rejilla Bootstrap -->
+  <div class="container">
+    <!-- Primera fila -->
+    <div class="row">
+      <!-- Celda que ocupa 2 columnas en todos -->
+      <div class="col-xs-2 celda">
+        <h4>Celda 1-1</h4>
+      </div>
+      <!-- Celda que se desplaza a la derecha 1 columna en todos 
+        y que ocupa 9 columnas en todos -->
+      <div class="col-xs-offset-1 col-xs-9 celda">
+        <h4>Celda 1-2</h4>
+      </div>
+    </div>
+  </div>
+  <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
