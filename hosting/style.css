@@ -1,7 +1,6 @@
 #slogan_section {
-  background: brown url("img/background.jpg");
+  background: url("img/background.jpg");
   height: 100vh; /* 100% del alto del viewport del navegador */
-  color: white;
   overflow: auto;
   justify-content: center;
   align-items: center;
