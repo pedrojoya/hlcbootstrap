@@ -1,0 +1,33 @@
+var b_txt = '';
+
+// write the badge
+	
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image1"><a href="http://www.flickr.com/photos/jogjabelanja/19167916626/"><img src="http://farm1.staticflickr.com/379/19167916626_a01a7bdd75_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-swan2" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image2"><a href="http://www.flickr.com/photos/jogjabelanja/16296577831/"><img src="http://farm8.staticflickr.com/7512/16296577831_c60d69db65_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-felisha" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image3"><a href="http://www.flickr.com/photos/jogjabelanja/16301082290/"><img src="http://farm8.staticflickr.com/7413/16301082290_843bb512e7_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-mazalova" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image4"><a href="http://www.flickr.com/photos/jogjabelanja/15833123932/"><img src="http://farm8.staticflickr.com/7502/15833123932_c9d3f4f848_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-234" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image5"><a href="http://www.flickr.com/photos/jogjabelanja/20861129724/"><img src="http://farm1.staticflickr.com/750/20861129724_aaee4e8a45_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-joan" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image6"><a href="http://www.flickr.com/photos/jogjabelanja/21456715566/"><img src="http://farm1.staticflickr.com/672/21456715566_7b4b5b6230_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-jalinda" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image7"><a href="http://www.flickr.com/photos/jogjabelanja/16516380595/"><img src="http://farm8.staticflickr.com/7375/16516380595_db1e8c6450_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-davian" height="75" width="75"></a></div>';
+	
+		 	 		
+	b_txt+= '<div class="flickr_badge_image" id="flickr_badge_image8"><a href="http://www.flickr.com/photos/jogjabelanja/16047438095/"><img src="http://farm8.staticflickr.com/7477/16047438095_11d11c7fcc_s.jpg" alt="Una foto de Flickr" title="cincin-kawin-pamela" height="75" width="75"></a></div>';
+
+
+b_txt += '<span style="position:absolute;left:-999em;top:-999em;visibility:hidden" class="flickr_badge_beacon"><img src="http://geo.yahoo.com/p?s=792600102&t=5c7f26f3b58bedd9c327ddf8b93bf1b6&fl_ev=0&lang=es&intl=es" width="0" height="0" alt="" /></span>';
+
+document.write(b_txt);
