@@ -7,3 +7,30 @@
   color: #f7f6f1;
   display: flex;
 }
+
+#features_list p {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: #FAFAFA;
+}
+
+.panel-danger {
+  border-color: #F04124;
+}
+
+.panel-danger .panel-heading {
+  background-image: none;
+  background-color: #f04124;
+  color: white;
+}
+
+.panel-heading {
+  padding:20px 10px;
+}
+
+.panel-title {
+  font-size: 26px;
+  padding-top: 10px;
+}
